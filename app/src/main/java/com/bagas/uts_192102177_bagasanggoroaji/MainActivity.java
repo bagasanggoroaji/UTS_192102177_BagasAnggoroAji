@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onFailure(Call<List<User>> call, Throwable t){
                 progressDialog.dismiss();
-                Toast.makeText(MainActivity.this, "Terjadi kesalahan, harap coba lagi!"+t, Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Terjadi kesalahan, harap dicoba lagi!"+t, Toast.LENGTH_SHORT).show();
             }
         });
     }
